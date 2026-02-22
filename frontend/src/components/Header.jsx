@@ -9,13 +9,13 @@ export const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex items-center justify-between">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4 max-sm:py-5 flex items-center justify-between">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-3 group" onClick={() => setIsOpen(false)}>
         <img
           src={ASSETS.logo}
           alt="Physics Kills"
-          className="h-10 w-10 object-cover rounded-full ring-2 ring-pk-red/30 transition-transform duration-300 group-hover:scale-110"
+          className="h-10 w-10 max-sm:h-14 max-sm:w-14 object-cover rounded-full ring-2 ring-pk-red/30 transition-transform duration-300 group-hover:scale-110"
         />
         <span className="text-white font-heading text-xl tracking-wider hidden sm:block">
           PHYSICS <span className="text-pk-red">KILLS</span>
@@ -25,13 +25,13 @@ export const Header = () => {
       {/* Hamburger */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-[60] w-10 h-10 flex items-center justify-center rounded-lg border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-300 hover:border-pk-red/50 hover:shadow-[0_0_15px_rgba(230,57,70,0.3)]"
+        className="relative z-[60] w-10 h-10 max-sm:w-14 max-sm:h-14 flex items-center justify-center rounded-lg border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-300 hover:border-pk-red/50 hover:shadow-[0_0_15px_rgba(230,57,70,0.3)]"
         aria-label="Toggle menu"
       >
         {isOpen ? (
-          <X className="w-5 h-5 text-pk-red" />
+          <X className="w-5 h-5 max-sm:w-7 max-sm:h-7 text-pk-red" />
         ) : (
-          <Menu className="w-5 h-5 text-white" />
+          <Menu className="w-5 h-5 max-sm:w-7 max-sm:h-7 text-white" />
         )}
       </button>
 

@@ -48,7 +48,7 @@ export const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-[2] flex flex-col items-center justify-center h-full px-6 text-center">
+      <div className="relative z-[2] flex flex-col items-center justify-center h-full px-6 text-center max-sm:-translate-y-8">
         {/* Feynman Quote */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
