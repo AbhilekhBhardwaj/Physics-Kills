@@ -1,6 +1,7 @@
 {
     "name": "frontend",
     "version": "0.1.0",
+    "description": "Physics-Kills frontend",
     "private": true,
     "dependencies": {
         "@hookform/resolvers": "^5.0.1",

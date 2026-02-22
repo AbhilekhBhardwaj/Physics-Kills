@@ -1,5 +1,6 @@
 {
   "name": "physics-kills",
+  "description": "Physics-Kills",
   "private": true,
   "scripts": {
     "dev": "npm start --prefix frontend",
