@@ -2,6 +2,7 @@ export const ASSETS = {
     logo: 'https://customer-assets.emergentagent.com/job_physics-kills/artifacts/7mzydd5s_logo-2.png',
     mascot: 'https://customer-assets.emergentagent.com/job_d3be9da0-135c-416e-b71e-d6b42e14fe50/artifacts/nlaflgpa_mascot.png',
     heroVideo: 'https://customer-assets.emergentagent.com/job_d3be9da0-135c-416e-b71e-d6b42e14fe50/artifacts/5hinlooh_3194277-hd_1920_1080_30fps.mp4',
+    mascotSpace: '/mascot-space.png',
   };
   
   export const NAV_LINKS = [
