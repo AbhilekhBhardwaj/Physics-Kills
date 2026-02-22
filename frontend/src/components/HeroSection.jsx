@@ -110,7 +110,7 @@ export const HeroSection = () => {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[3]"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[3] hidden sm:block"
         animate={{ y: [0, 8, 0] }}
         transition={{ duration: 1.5, repeat: Infinity }}
       >
