@@ -26,7 +26,7 @@ export const NotesSection = ({ isPage = false }) => {
           transition={{ duration: 0.6 }}
           className="mb-10"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-wider text-white mb-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-widest text-white mb-3">
             STUDY <span className="text-pk-red">NOTES</span>
           </h2>
           <p className="text-white/40 font-body text-sm sm:text-base max-w-lg">
@@ -151,7 +151,7 @@ export const NotesSection = ({ isPage = false }) => {
               <div className="flex-1 overflow-y-auto">
                 <div className="max-w-3xl mx-auto px-6 sm:px-12 py-8">
                   <div className="flex items-center justify-between mb-8">
-                    <h2 className="text-2xl font-heading tracking-wider text-white">
+                    <h2 className="text-2xl font-heading tracking-widest text-white">
                       {readingNote.chapters[activeChapter]}
                     </h2>
                     <button

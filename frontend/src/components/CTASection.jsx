@@ -40,7 +40,7 @@ export const CTASection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-wider text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-widest text-white mb-4">
             MASTER PHYSICS.<br />
             <span className="text-pk-red">DON'T MEMORIZE IT.</span>
           </h2>
@@ -65,7 +65,7 @@ export const CTASection = () => {
                 <div className="w-12 h-12 rounded-xl bg-pk-red/10 flex items-center justify-center mb-5 transition-all duration-300 group-hover:bg-pk-red/20 group-hover:shadow-[0_0_20px_rgba(230,57,70,0.3)]">
                   <card.icon className="w-5 h-5 text-pk-red" />
                 </div>
-                <h3 className="text-xl font-heading tracking-wide text-white mb-3">
+                <h3 className="text-xl font-heading tracking-widest text-white mb-3">
                   {card.title}
                 </h3>
                 <p className="text-sm text-white/40 font-body leading-relaxed">

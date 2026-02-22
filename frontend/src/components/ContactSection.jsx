@@ -27,7 +27,7 @@ export const ContactSection = ({ isPage = false }) => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-wider text-white mb-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-widest text-white mb-3">
             GET IN <span className="text-pk-red">TOUCH</span>
           </h2>
           <p className="text-white/40 font-body text-sm sm:text-base">

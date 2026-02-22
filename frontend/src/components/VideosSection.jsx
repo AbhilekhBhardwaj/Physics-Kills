@@ -40,7 +40,7 @@ export const VideosSection = ({ isPage = false }) => {
           transition={{ duration: 0.6 }}
           className="mb-10"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-wider text-white mb-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-widest text-white mb-3">
             VIDEO <span className="text-pk-red">LECTURES</span>
           </h2>
           <p className="text-white/40 font-body text-sm sm:text-base max-w-lg">
