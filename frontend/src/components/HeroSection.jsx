@@ -41,7 +41,7 @@ export const HeroSection = () => {
       <motion.img
         src={ASSETS.mascot}
         alt="Physics Kills Mascot"
-        className="absolute right-4 sm:right-12 bottom-16 sm:bottom-24 w-28 sm:w-40 md:w-48 opacity-90 pointer-events-none z-[3]"
+        className="absolute right-4 sm:right-12 bottom-16 sm:bottom-24 w-28 sm:w-40 md:w-48 opacity-90 pointer-events-none z-[3] hidden sm:block"
         style={{ y: -mascotY }}
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
