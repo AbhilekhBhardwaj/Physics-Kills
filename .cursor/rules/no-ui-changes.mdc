@@ -1,0 +1,15 @@
+---
+description: Never modify UI components, styles, or layout of this project
+alwaysApply: true
+---
+
+# Do Not Change UI
+
+**Never modify the UI of this project.** This includes:
+
+- React components (JSX/TSX)
+- CSS, Tailwind classes, or styling
+- Layout, structure, or visual design
+- Component appearance or behavior that affects what users see
+
+Only make changes to non-UI code (logic, config, tooling, backend, etc.) unless explicitly asked to change UI.
