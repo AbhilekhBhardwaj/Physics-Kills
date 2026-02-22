@@ -15,7 +15,7 @@ export const Header = () => {
         <img
           src={ASSETS.logo}
           alt="Physics Kills"
-          className="h-10 w-10 object-cover rounded-full ring-2 ring-pk-red/30 transition-transform duration-300 group-hover:scale-110"
+          className="h-10 w-10 max-sm:h-8 max-sm:w-8 object-cover rounded-full ring-2 ring-pk-red/30 transition-transform duration-300 group-hover:scale-110"
         />
         <span className="text-white font-heading text-xl tracking-wider hidden sm:block">
           PHYSICS <span className="text-pk-red">KILLS</span>
@@ -25,13 +25,13 @@ export const Header = () => {
       {/* Hamburger */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-[60] w-10 h-10 flex items-center justify-center rounded-lg border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-300 hover:border-pk-red/50 hover:shadow-[0_0_15px_rgba(230,57,70,0.3)]"
+        className="relative z-[60] w-10 h-10 max-sm:w-8 max-sm:h-8 flex items-center justify-center rounded-lg border border-white/10 bg-black/40 backdrop-blur-md transition-all duration-300 hover:border-pk-red/50 hover:shadow-[0_0_15px_rgba(230,57,70,0.3)]"
         aria-label="Toggle menu"
       >
         {isOpen ? (
-          <X className="w-5 h-5 text-pk-red" />
+          <X className="w-5 h-5 max-sm:w-4 max-sm:h-4 text-pk-red" />
         ) : (
-          <Menu className="w-5 h-5 text-white" />
+          <Menu className="w-5 h-5 max-sm:w-4 max-sm:h-4 text-white" />
         )}
       </button>
 
