@@ -39,14 +39,20 @@ export const MascotSection = () => {
           style={{ y: mascotY, rotate, scale, x }}
           className="relative"
         >
-          <motion.img
-            src={ASSETS.mascotSpace}
-            alt="Physics Kills Mascot"
-            className="w-64 sm:w-80 md:w-[22rem] relative z-10"
+          <motion.video
+            autoPlay
+            muted
+            loop
+            playsInline
+            disablePictureInPicture
+            controlsList="nodownload noplaybackrate"
+            className="w-64 sm:w-80 md:w-[22rem] relative z-10 pointer-events-none"
             style={{ mixBlendMode: 'screen' }}
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-          />
+          >
+            <source src="/video for website .mp4" type="video/mp4" />
+          </motion.video>
         </motion.div>
       </div>
     </section>
