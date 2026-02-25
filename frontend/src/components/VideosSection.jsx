@@ -94,7 +94,7 @@ export const VideosSection = ({ isPage = false }) => {
 
           <div
             id="video-carousel"
-            className="flex gap-5 overflow-x-auto scrollbar-hide pb-4 snap-x snap-mandatory"
+            className="flex gap-5 overflow-x-auto scrollbar-hide pb-4 snap-x snap-proximity overscroll-x-contain"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {filteredVideos.map((video, i) => (
